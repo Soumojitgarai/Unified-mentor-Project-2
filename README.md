@@ -1,6 +1,9 @@
 # Unified mentor 
 ## Internship: Full Stack Web Development
 ### Project 2: Calculator
+![image](https://github.com/user-attachments/assets/a81d2bac-4b5b-4c38-9e0f-eafd45902d5b)
+
+
 #### Features
 
 This calculator includes:
