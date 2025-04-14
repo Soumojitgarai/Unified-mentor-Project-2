@@ -4,28 +4,46 @@
 ![image](https://github.com/user-attachments/assets/a81d2bac-4b5b-4c38-9e0f-eafd45902d5b)
 
 
-#### Features
+## 🚀 Tech Stack
 
-This calculator includes:
+- **Framework**: [Next.js](https://nextjs.org/) - React framework for production
+- **Styling**: [Tailwind CSS](https://tailwindcss.com/) - Utility-first CSS framework
+- **Icons**: [Lucide React](https://lucide.dev/) - Beautiful & consistent icons
+- **UI Components**: Custom components with shadcn/ui styling principles
+- **State Management**: React's useState and useEffect hooks
 
-- Basic arithmetic operations (addition, subtraction, multiplication, division, percentage)
-- Clear and delete functionality
-- Decimal point support
-- Responsive design
-- Dark/light mode toggle
-- Keyboard support:
+## ✨ Features
 
-- Numbers: 0-9
-- Operators: +, -, *, /
-- Equals: Enter or =
-- Clear: Escape
-- Delete: Backspace
+- **Basic Arithmetic Operations**:
+  - Addition (+)
+  - Subtraction (-)
+  - Multiplication (×)
+  - Division (÷)
+  - Percentage (%)
 
+- **User Experience**:
+  - Full calculation display (shows the entire expression)
+  - Clear and delete functionality
+  - Decimal point support
+  - Responsive design for all device sizes
+  - Dark/light mode toggle with system preference detection
 
-#### How It Works
+- **Keyboard Support**:
+  - Numbers: 0-9
+  - Operators: +, -, *, /
+  - Equals: Enter or =
+  - Clear: Escape
+  - Delete: Backspace
 
-1. The calculator maintains state for the current calculation, tracking the first operand, operator, second operand, and result.
-2. When you click a number, it updates the appropriate operand based on the current state.
-3. When you click an operator, it sets the operator if you're starting a new calculation, or performs the previous calculation if you're chaining operations.
-4. The equals button performs the calculation and displays the result.
-5. The calculator also supports keyboard input for all operations.
+- **Accessibility**:
+  - Proper ARIA labels
+  - Keyboard navigation
+  - High contrast mode support
+  - Screen reader friendly
+
+## 📋 Installation
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/yourusername/modern-calculator.git
+   cd modern-calculator
